@@ -106,13 +106,18 @@ button {
   color: #404bbf;
 }
 
+.section {
+  padding: 188px 0;
+}
+
 .hero {
   background-color: #2e2f42;
-  padding: 188px 0;
-  .hero-cont {
-    /* padding: 188px 0; */
-  }
 }
+
+/* .hero-cont {
+     padding: 188px 0; 
+  } */
+
 .hero-txt {
   padding-bottom: 48px;
   max-width: 496px;
