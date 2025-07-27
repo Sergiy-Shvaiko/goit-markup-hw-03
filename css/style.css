@@ -1,0 +1,138 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.studio {
+  color: #2e2f42;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+button {
+  cursor: pointer;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.astudio {
+  color: #2e2f42;
+}
+.astudio:hover {
+  color: #404bbf;
+}
+.astudio:focus {
+  color: #404bbf;
+}
+.addrs {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.mail-tel {
+  color: #434455;
+}
+.mail-tel:hover {
+  color: #404bbf;
+}
+.mail-tel:focus {
+  color: #404bbf;
+}
+.hero {
+  background-color: #2e2f42;
+}
+.hero-txt {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.order-servise-btn {
+  background: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.order-servise-btn:hover,
+.order-servise-btn:focus {
+  background: #404bbf;
+}
+.order-btn {
+  font-size: 16px;
+  color: #ffffff;
+}
+/* s2 */
+/* h3 */
+.f-title {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+/* p */
+.f-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* s3 */
+.sec-team {
+  background-color: #f4f4fd;
+}
+/* h2 */
+.team-title {
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.card-team {
+  background-color: #ffffff;
+  line-height: 1.2;
+}
+/* h3 */
+.team-name {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* S4 */
+
+.foot {
+  background-color: #2e2f42;
+}
+.studio-w {
+  color: #f4f4fd;
+}
+.p-text {
+  color: #f4f4fd;
+}
