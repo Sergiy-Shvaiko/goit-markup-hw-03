@@ -3,6 +3,47 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* header */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.head-cont {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -15,57 +56,64 @@ body {
 .studio {
   color: #2e2f42;
 }
-h2 {
-  font-weight: 700;
-  font-size: 36px;
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
 }
-h3 {
-  font-weight: 500;
-  font-size: 20px;
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
+
 button {
   cursor: pointer;
 }
 
-p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.nav {
+.nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.astudio {
   color: #2e2f42;
 }
-.astudio:hover {
-  color: #404bbf;
-}
-.astudio:focus {
-  color: #404bbf;
-}
-.addrs {
+
+.contact {
+  margin-left: auto;
   font-style: normal;
+}
+.contact-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.contact-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.mail-tel {
   color: #434455;
 }
-.mail-tel:hover {
+
+.nav-link:focus,
+.nav-link:hover,
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
-.mail-tel:focus {
-  color: #404bbf;
-}
+
 .hero {
   background-color: #2e2f42;
 }
 .hero-txt {
+  padding-top: 188px;
+  padding-bottom: 48px;
+  width: 496px;
+  margin: 0 auto;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -73,11 +121,21 @@ p {
   color: #ffffff;
 }
 .order-servise-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  margin: auto auto;
+  /* padding-bottom: 188px; */
+  border-radius: 4px;
+
   background: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+}
+.hero-btn {
+  padding-bottom: 188px;
 }
 .order-servise-btn:hover,
 .order-servise-btn:focus {
@@ -88,8 +146,22 @@ p {
   color: #ffffff;
 }
 /* s2 */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* h3 */
 .f-title {
+  font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -108,6 +180,8 @@ p {
 }
 /* h2 */
 .team-title {
+  font-weight: 700;
+  font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
@@ -120,6 +194,8 @@ p {
 }
 /* h3 */
 .team-name {
+  font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -136,3 +212,4 @@ p {
 .p-text {
   color: #f4f4fd;
 }
+/* Flex */
