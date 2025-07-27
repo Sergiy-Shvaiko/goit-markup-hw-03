@@ -108,9 +108,10 @@ button {
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .hero-txt {
-  padding-top: 188px;
+  /* padding-top: 188px; */
   padding-bottom: 48px;
   width: 496px;
   margin: 0 auto;
@@ -134,7 +135,7 @@ button {
   color: #ffffff;
 }
 .hero-btn {
-  padding-bottom: 188px;
+  /* padding-bottom: 188px; */
 }
 .order-servise-btn:hover,
 .order-servise-btn:focus {
