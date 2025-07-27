@@ -111,9 +111,8 @@ button {
   padding: 188px 0;
 }
 .hero-txt {
-  /* padding-top: 188px; */
   padding-bottom: 48px;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto;
   font-size: 56px;
   line-height: 1.07;
@@ -123,9 +122,10 @@ button {
 }
 .order-servise-btn {
   display: block;
+  border: none;
   min-width: 169px;
   height: 56px;
-  margin: auto auto;
+  margin: 0 auto;
   border-radius: 4px;
 
   background: #4d5ae5;
@@ -134,9 +134,7 @@ button {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-.hero-btn {
-  /* padding-bottom: 188px; */
-}
+
 .order-servise-btn:hover,
 .order-servise-btn:focus {
   background: #404bbf;
