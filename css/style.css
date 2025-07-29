@@ -168,6 +168,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 /* p */
 .f-text {
@@ -175,6 +176,20 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+/* section 2 future */
+.section-future {
+  padding: 120px 156px;
+}
+
+.future-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.future-title {
+  width: calc((100% - 72px) / 4);
 }
 
 /* s3 */
